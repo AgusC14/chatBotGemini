@@ -11,4 +11,3 @@ class Settings:
     max_history_messages: int = int(os.getenv("MAX_HISTORY", "12")) # Máximo de mensajesen memoria de conversación
     
 settings = Settings()
-ivo 
